@@ -178,6 +178,9 @@
  .header-logo {
     max-width: 40px;
 }   
+.navbar {
+    padding: 15px 0;
+}
 .header-title {
     font-size: 18px;
     padding: 9px 8px;
