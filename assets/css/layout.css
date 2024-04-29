@@ -48,9 +48,9 @@ p:first-letter, h1:first-letter, h2:first-letter, h3:first-letter, h4:first-lett
 :root {
     --primary-clr: #ffffff;
     --secondary-clr:#1e1e1f;
-    --link-clr: #20b15a; 
-    --hover-clr:#1b9f50;
-    --light-green-bg: #d7f5dc;
+    --link-clr: #1fae58;
+    --hover-clr: #1a9d4f;
+    --light-green-bg: #d4f0d9e6;
 }
 
 .text-center
