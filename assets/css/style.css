@@ -52,9 +52,8 @@
     top: 33%;
     right: 10%;
 }
-.cv-btn:hover, .btn-login:hover
- {
-    background: var(--hover-clr);
+.cv-btn:hover, .btn-login:hover {
+    background: #16354d;
     transform: scale(1.07);
 }
 .hero-img-box img {
@@ -578,5 +577,4 @@ br {
     font-size: 25px;
 }
 }
-
 
