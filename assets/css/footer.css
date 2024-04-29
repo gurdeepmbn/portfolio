@@ -1,0 +1,103 @@
+/*======================= footer-section ===========================*/
+.footer-section {
+    background: var(--secondary-clr);
+    padding: 30px 0 26px;
+}
+
+/*footer navbar*/
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-itm {
+    margin-right: 15px;
+}
+.footer-itm:after {
+    content: '|';
+    color: var(--primary-clr);
+    margin-left: 10px;
+}
+.footer-itm:last-child:after
+{
+  content: '';
+  margin-left: 0px;
+}
+
+.footer-link {
+    color: var(--primary-clr);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+/*footer navbar*/
+
+/*social-media-container*/
+.connect-with p
+{
+     color: var(--primary-clr);
+     font-size: 18px;
+     margin-bottom: 15px;
+}
+/*social-media-style*/
+
+.social-media-style {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+/*social-media-link*/
+
+.social-media-link
+{
+    color: var(--primary-clr);
+}
+
+/*social-media-link*/
+/*social-icon*/
+.social-icon i {
+    font-size: 13px;
+    padding: 6px 7px;
+    border-radius: 5px;
+}
+.social-icon .fa-linkedin {
+    background: #0077b5;
+    font-size: 14px;   
+}
+.fab.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa-brands.fa-skype {
+    background: #00AFF0;
+}
+/*social-icon*/
+
+
+/*social-media-style*/
+
+/*social-media-container*/
+
+/*======================= footer-section ===========================*/
+
+@media (max-width:575px)
+{
+    .connect-with p {
+    font-size: 17px;
+}
+.social-media-style {
+    gap: 10px;
+}
+.footer-list {
+    flex-direction: column;
+}
+.footer-itm {
+    margin: 0 0  7px;
+}
+.footer-itm:after {
+    content: '';
+    margin-left: 0px;
+}
+.footer-link {
+    font-size: 16px;
+}
+}
