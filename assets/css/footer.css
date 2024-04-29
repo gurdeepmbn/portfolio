@@ -93,6 +93,9 @@
 .footer-itm {
     margin: 0 0  7px;
 }
+.footer-itm:last-child {
+    margin: 0;
+}   
 .footer-itm:after {
     content: '';
     margin-left: 0px;
